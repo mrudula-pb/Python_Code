@@ -1,0 +1,19 @@
+
+# Student provides a text file accurately explaining their run time analysis (Worst-Case Big-O Notation)
+# for each solution they produced.
+
+Task0.py:
+Big-O notation is O(1)
+
+Task1.py:
+Big-O notation is O(n)
+
+Task2.py:
+Big-O notation is O(n2)
+
+Task3.py:
+Big-O notation is O(n2)
+
+Task4.py:
+Big-O notation is O(n2)
+

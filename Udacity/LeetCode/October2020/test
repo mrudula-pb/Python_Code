@@ -1,0 +1,22 @@
+
+
+
+    #     len_nums = len(nums)
+    #     for first in range(0, len_nums):
+    #         for second in range(first + 1, len_nums):
+    #             if nums[first] > nums[second]:
+    #                 temp = nums[first]
+    #                 nums[first] = nums[second]
+    #                 nums[second] = temp
+    #
+    #     nums_length = len(nums)
+    #     tuple_pairs = [(nums[first], nums[second]) for first in range(nums_length) for second in
+    #                    range(first + 1, nums_length) if nums[second] - nums[first] == k and nums[first] <= nums[second]]
+    #
+    #     pairs =  [t for t in (set(tuple(i) for i in tuple_pairs))]
+    #     count = 0
+    #     length = len(pairs)
+    #     while length != 0:
+    #         count += 1
+    #         length -= 1
+    #     return count
